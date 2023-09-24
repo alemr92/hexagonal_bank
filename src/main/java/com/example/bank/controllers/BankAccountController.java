@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 
+// To complete our application, we need to provide implementations for the defined ports. We call these adapters.
+//For the incoming interactions, we’ll create a REST controller
+// The controller uses the defined ports to make calls to the application core.
 @RestController
 @RequestMapping("/account")
 public class BankAccountController {

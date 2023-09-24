@@ -11,6 +11,7 @@ import com.example.bank.ports.outgoing.SaveAccountPort;
 import java.math.BigDecimal;
 import java.util.NoSuchElementException;
 
+// Next, we’ll create a service to tie all the pieces together and drive the execution:
 public class BankAccountService implements DepositUseCase, WithdrawUseCase, CheckUseCase {
 
     private LoadAccountPort loadAccountPort;

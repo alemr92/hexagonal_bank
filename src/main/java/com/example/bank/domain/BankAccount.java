@@ -3,6 +3,10 @@ package com.example.bank.domain;
 
 import java.math.BigDecimal;
 
+// Its main responsibility is to model the business rules.
+// It also verifies that the objects are always in a valid state
+// The domain model should have no dependency on any specific technology.
+// That’s the reason why you’ll find no Spring annotations here.
 public class BankAccount {
     private Long id;
 

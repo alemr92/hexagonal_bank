@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.util.Optional;
 
+// BankAccountRepository class that connects the outgoing ports with the SpringDataBankAccountRepository:
 @Component
 public class BankAccountRepository implements LoadAccountPort, SaveAccountPort, CheckAccountPort {
 
