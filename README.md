@@ -4,7 +4,9 @@ https://jivimberg.io/blog/2020/02/01/hexagonal-architecture-on-spring-boot/
 WHO EXPLAIN WHAT IS HEXAGONAL ARCHITECTURE WITH THIS EXAMPLE. ALL CREDIT FOR HIM.
 I only make some changes for my personal use and practice with hexagonal architecture
 ## Bank Demo API
-![image](https://github.com/alemr92/hexagonal_bank/assets/30073503/3b26946b-e3a1-47e8-ac57-1cd2b053017e)
+
+![HexagonalArchitecture-impl](https://github.com/alemr92/hexagonal_bank/assets/30073503/15677aa6-db50-4983-9b0e-8ad822a7bc46)
+
 
 ## Features
 
